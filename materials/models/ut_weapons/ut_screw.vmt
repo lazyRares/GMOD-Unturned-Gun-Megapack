@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/ut_weapons/ut_screw"
+	//"$bumpmap"    "models/ut_weapons/ut_screw_normal"
+}
