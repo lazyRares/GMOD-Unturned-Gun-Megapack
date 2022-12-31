@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/ut_weapons/ut_optic_dot_sight"
+	"$alphatest" 1
+}

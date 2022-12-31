@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/ut_weapons/chester_pump"
+	//"$bumpmap"    "models/ut_weapons/chester_pump_normal"
+}
