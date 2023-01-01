@@ -4,5 +4,5 @@
 	"$bumpmap" "models/ut_weapons/ut_magazine_herstal_bumpmap"
 
 	"$envmap" "env_cubemap"
-	"$envmaptint" "[0.6 0.6 0.6]"
+	"$envmaptint" "[0.2 0.2 0.2]"
 }
