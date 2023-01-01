@@ -66,7 +66,7 @@ SWEP.NotAWeapon = false -- Set to true to indicate that this is not a weapon.
 
 SWEP.ARC9WeaponCategory = {"weapon_ar2"} -- See sh_common.lua
 
--------------------------- DAMAGE PROFILE
+--------------------------   PROFILE
 
 SWEP.DamageMax = 25 -- Damage done at point blank range
 SWEP.DamageMin = 15 -- Damage done at maximum range
@@ -407,23 +407,23 @@ SWEP.FreeAimRadiusMultBipod = 0
 -------------------------- SOUNDS
 
 SWEP.ShootVolume = 450
-SWEP.ShootVolumeActual = 1
+
 SWEP.ShootPitch = 100
 SWEP.ShootPitchVariation = 0
 
 SWEP.FirstShootSound = "weapons/arccw/herstal_shot.wav"  
 SWEP.ShootSound = "weapons/arccw/herstal_shot.wav"     -- Fire      
 SWEP.ShootSoundIndoor = "weapons/arccw/herstal_shot_indoors.wav"    -- Fire indoors
-SWEP.ShootSoundSilenced = "" -- Fire silenced
-SWEP.ShootSoundIndoorSilenced = nil  -- Fire indoors silenced
-SWEP.FirstShootSoundSilenced = nil  -- First fire silenced
+SWEP.ShootSoundSilenced = "weapons/arccw/silenced.wav" -- Fire silenced
+SWEP.ShootSoundIndoorSilenced = "weapons/arccw/silenced.wav"  -- Fire indoors silenced
+SWEP.FirstShootSoundSilenced = "weapons/arccw/silenced.wav"  -- First fire silenced
 SWEP.FirstShootSoundIndoor = "weapons/arccw/herstal_shot_indoors.wav"   -- First fire indoors
 SWEP.FirstDistantShootSound = "weapons/arccw/herstal_shot_distant.wav"                -- First distant fire
 SWEP.DistantShootSound = "weapons/arccw/herstal_shot_distant.wav"                     -- Distant fire
 SWEP.DistantShootSoundIndoor = "weapons/arccw/herstal_shot_distant.wav"              -- Distant fire indoors
-SWEP.DistantShootSoundSilenced = nil            -- Distant fire silenced
-SWEP.DistantShootSoundIndoorSilenced = nil      -- Distant fire indoors silenced
-SWEP.FirstDistantShootSoundSilenced = nil       -- First distant fire silenced
+SWEP.DistantShootSoundSilenced = "weapons/arccw/silenced.wav"            -- Distant fire silenced
+SWEP.DistantShootSoundIndoorSilenced = "weapons/arccw/silenced.wav"      -- Distant fire indoors silenced
+SWEP.FirstDistantShootSoundSilenced = "weapons/arccw/silenced.wav"       -- First distant fire silenced
 
 SWEP.ShootSoundLooping = nil
 SWEP.ShootSoundLoopingSilenced = nil
@@ -591,7 +591,7 @@ SWEP.CustomizeSnapshotPos = Vector(0, 0, 0)
 SWEP.CustomizeSnapshotAng = Angle(0, 0, 0)
 SWEP.wNoRotate = false
 
-SWEP.BipodPos = Vector(0, 0, 0)
+SWEP.BipodPos = Vector(0, 50, -25)
 SWEP.BipodAng = Angle(0, 0, 0)
 
 SWEP.HeightOverBore = 1
@@ -640,8 +640,8 @@ SWEP.Attachments = {
     [2] = {
         PrintName = "Muzzle",
         Bone = "weapon",
-		Pos = Vector(0.2, -5, 25.454),
-        Ang = Angle(90, 0, -90),
+		Pos = Vector(0, 1.2, -65),
+        Ang = Angle(-90, 0, -90),
         Category = {"muzzle"},
     },
     [3] = {
