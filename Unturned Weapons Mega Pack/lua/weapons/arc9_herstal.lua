@@ -44,9 +44,9 @@ SWEP.WorldModelMirror = "models/ut_weapons/ut_herstal_w.mdl" -- Use this to set 
 
 SWEP.WorldModelOffset = {
 	Pos = Vector(11,0.5,-2), -- non tpik (while on ground, on npc etc) 
-	Ang = Angle(1.5, 180, 180),
+	Ang = Angle(1.5, 0, 180),
 	TPIKPos = Vector(11,0.5,-2), -- arc9_tpik 1, you can make cool poses with it
-	TPIKAng = Angle(1.5, 180, 180),
+	TPIKAng = Angle(1.5, 0, 180),
 	Scale = 1
 }
 
@@ -647,8 +647,8 @@ SWEP.Attachments = {
     [3] = {
         PrintName = "Tactical",
         Bone = "weapon",
-		Pos = Vector(0.2, -5, 25.454),
-        Ang = Angle(90, 0, -90),
+		Pos = Vector(-5, 0, -27),
+        Ang = Angle(-90, 0, -90),
         Category = {"tac"},
     },
     [4] = {
@@ -757,7 +757,7 @@ SWEP.Animations = {
             {s = "weapons/arccw/herstal_reload_empty.wav", t = 22 / 30, c = CHAN_ITEM, shelleject = true },
 		}		
     },
-     ["draw"] = {
+    ["draw"] = {
          Source = "draw",  --QC sequence source, can be {"table", "of", "strings"} or "string"
          RareSource = "draw",  --Has a small chance to play instead of normal source
          RareSourceChance = 0.01,  --chance that rare source will play
