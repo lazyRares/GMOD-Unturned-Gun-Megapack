@@ -68,8 +68,8 @@ SWEP.ARC9WeaponCategory = {"weapon_ar2"} -- See sh_common.lua
 
 -------------------------- DAMAGE PROFILE
 
-SWEP.DamageMax = 36 -- Damage done at point blank range
-SWEP.DamageMin = 21 -- Damage done at maximum range
+SWEP.DamageMax = 25 -- Damage done at point blank range
+SWEP.DamageMin = 15 -- Damage done at maximum range
 
 SWEP.ImpactForce = 8 -- Force that bullets apply on hit
 
@@ -654,7 +654,7 @@ SWEP.Attachments = {
     [4] = {
         PrintName = "Grip",
         Bone = "weapon",
-		Pos = Vector(0.2, -5, 25.454),
+		Pos = Vector(0, 7, -27),
         Ang = Angle(90, 0, -90),
         Category = {"grip"},
     },

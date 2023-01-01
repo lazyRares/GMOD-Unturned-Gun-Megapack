@@ -5,7 +5,6 @@ ATT.Description = [[Rail mounted sight with electronic aiming point.]]
 ATT.SortOrder = 0
 
 ATT.Model = "models/ut_weapons/attachments/dotsight.mdl"
-ATT.WorldModel = "models/ut_weapons/attachments/dotsight.mdl" -- optional
 ATT.BoxModel = "models/items/arc9/att_plastic_box.mdl" --"models/items/arc9/att_plastic_box.mdl" 
 
 ATT.SprintToFireTimeMult = 1.05
