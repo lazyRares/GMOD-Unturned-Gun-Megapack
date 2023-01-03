@@ -12,6 +12,8 @@ ATT.VisualRecoilMultMult = 0.86
 
 ATT.SpeedMult = 0.98
 
+ATT.ModelOffset = Vector(0,2,0)
+
 ATT.SwayAdd = 0.6
 ATT.SprintToFireTimeMult = 1.02
 ATT.AimDownSightsTimeMult = 1.02
