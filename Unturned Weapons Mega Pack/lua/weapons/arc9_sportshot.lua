@@ -584,7 +584,7 @@ SWEP.SprintMidPoint = {
 }
 
 -- Position for customizing
-SWEP.CustomizePos = Vector(2, 10, -5) 	--Customization Pos
+SWEP.CustomizePos = Vector(-17, 25, -5) 	--Customization Pos
 SWEP.CustomizeAng = Angle(-85,15 , -7) 	--Customization Pos
 SWEP.CustomizeSnapshotFOV = 110
 SWEP.CustomizeSnapshotPos = Vector(0, 0, 0)
@@ -640,7 +640,7 @@ SWEP.Attachments = {
     [2] = {
         PrintName = "Muzzle",
         Bone = "weapon",
-		Pos = Vector(0.1, -10, -65),
+		Pos = Vector(-0.5, -10, -58),
         Ang = Angle(-90, 0, -90),
         Category = {"muzzle"},
     },
