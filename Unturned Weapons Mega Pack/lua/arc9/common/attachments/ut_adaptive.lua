@@ -9,7 +9,7 @@ ATT.BoxModel = "models/items/arc9/att_plastic_box.mdl" --"models/items/arc9/att_
 
 ATT.ModelOffset = Vector(0,1.3,0)
 
-ATT.RPMMult = 1.3
+ATT.RPMMult = 1.5
 
 ATT.Category = "tac" -- can be "string" or {"list", "of", "strings"}
 ATT.ActivateElements = {"tac"}
