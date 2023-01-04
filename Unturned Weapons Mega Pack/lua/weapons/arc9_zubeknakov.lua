@@ -188,7 +188,7 @@ SWEP.BarrelLength = 32 -- Distance for nearwalling
 
 -------------------------- FIREMODES
 
-SWEP.RPM = 440
+SWEP.RPM = 600
 
 SWEP.TriggerDelay = false -- Add a delay before the weapon fires.
 SWEP.TriggerDelayTime = 0.2 -- Time until weapon fires.
