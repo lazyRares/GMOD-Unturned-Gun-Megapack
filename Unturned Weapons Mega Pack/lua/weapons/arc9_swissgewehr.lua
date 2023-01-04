@@ -191,7 +191,7 @@ SWEP.BarrelLength = 32 -- Distance for nearwalling
 SWEP.RPM = 500
 
 SWEP.TriggerDelay = true -- Add a delay before the weapon fires.
-SWEP.TriggerDelayTime = 0.06 -- Time until weapon fires.
+SWEP.TriggerDelayTime = 0. -- Time until weapon fires.
 SWEP.TriggerDelayRepeat = false -- Whether to do it for every shot on automatics.
 SWEP.TriggerDelayCancellable = true -- Whether it is possible to cancel trigger delay by releasing the trigger before it is done.
 SWEP.TriggerStartFireAnim = false -- Whether trigger begins the firing animation
@@ -585,7 +585,7 @@ SWEP.SprintMidPoint = {
 }
 
 -- Position for customizing
-SWEP.CustomizePos = Vector(-5, 10, -5) 	--Customization Pos
+SWEP.CustomizePos = Vector(-8, 45, -5) 	--Customization Pos
 SWEP.CustomizeAng = Angle(-85,15 , -7) 	--Customization Pos
 SWEP.CustomizeSnapshotFOV = 110
 SWEP.CustomizeSnapshotPos = Vector(0, 0, 0)

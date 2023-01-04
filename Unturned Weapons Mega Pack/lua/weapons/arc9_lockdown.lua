@@ -584,7 +584,7 @@ SWEP.SprintMidPoint = {
 }
 
 -- Position for customizing
-SWEP.CustomizePos = Vector(5, 35, 5) 	--Customization Pos
+SWEP.CustomizePos = Vector(5, 65, 5) 	--Customization Pos
 SWEP.CustomizeAng = Angle(-85,15 , -7) 	--Customization Pos
 SWEP.CustomizeSnapshotFOV = 110
 SWEP.CustomizeSnapshotPos = Vector(0, 0, 0)

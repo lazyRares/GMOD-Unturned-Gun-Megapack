@@ -162,7 +162,7 @@ SWEP.ManualActionEjectAnyway = false -- Eject a shell when firing anyway.
 SWEP.EjectDelay = 0 -- When eject shell on cycle (pretty dumb, better'd just use EjectAt)
 
 SWEP.ReloadWhileSprint = false -- This weapon can reload while the user is sprinting.
-SWEP.ReloadInSights = true -- This weapon can aim down sights while reloading.
+SWEP.ReloadInSights = false -- This weapon can aim down sights while reloading.
 SWEP.PartialReloadCountsTowardsNthReload = true -- If the gun is not empty, it counts towards the Nth reload. Useful for guns with spare magazine animations.
 
 SWEP.CanFireUnderwater = false -- This weapon can shoot while underwater.
@@ -583,14 +583,14 @@ SWEP.SprintMidPoint = {
 }
 
 -- Position for customizing
-SWEP.CustomizePos = Vector(-17, 25, -5) 	--Customization Pos
+SWEP.CustomizePos = Vector(-8, 55, -5) 	--Customization Pos
 SWEP.CustomizeAng = Angle(-85,15 , -7) 	--Customization Pos
 SWEP.CustomizeSnapshotFOV = 110
 SWEP.CustomizeSnapshotPos = Vector(0, 0, 0)
 SWEP.CustomizeSnapshotAng = Angle(0, 0, 0)
 SWEP.wNoRotate = false
 
-SWEP.BipodPos = Vector(0, 0, 0)
+SWEP.BipodPos = Vector(0, 35, -25)
 SWEP.BipodAng = Angle(0, 0, 0)
 
 SWEP.HeightOverBore = 1
