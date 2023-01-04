@@ -235,7 +235,7 @@ SWEP.RecoilLookupTable = nil -- Use to set specific values for predictible recoi
 SWEP.RecoilLookupTableOverrun = false -- Repeatedly take values from this table if we run out in the main table
 
 -- General recoil multiplier
-SWEP.Recoil = 1.2
+SWEP.Recoil = 1
 
 -- These multipliers affect the predictible recoil by making the pattern taller, shorter, wider, or thinner.
 SWEP.RecoilUp = 1.5 -- Multiplier for vertical recoil
@@ -632,6 +632,7 @@ end
 SWEP.Attachments = {
     [1] = {
         PrintName = "Optic",
+        DefaultIcon = Material("ui/att_optic.png"),
         Bone = "weapon",
 		Pos = Vector(0.2, -5, 25.454),
         Ang = Angle(90, 0, -90),
@@ -639,6 +640,7 @@ SWEP.Attachments = {
     },
     [2] = {
         PrintName = "Muzzle",
+        DefaultIcon = Material("ui/att_barrel.png"),
         Bone = "weapon",
 		Pos = Vector(0, 1.2, -65),
         Ang = Angle(-90, 0, -90),
@@ -646,6 +648,7 @@ SWEP.Attachments = {
     },
     [3] = {
         PrintName = "Tactical",
+        DefaultIcon = Material("ui/att_tac.png"),
         Bone = "weapon",
 		Pos = Vector(-5, 0, -27),
         Ang = Angle(-90, 0, -90),
@@ -653,6 +656,7 @@ SWEP.Attachments = {
     },
     [4] = {
         PrintName = "Grip",
+        DefaultIcon = Material("ui/att_grip.png"),
         Bone = "weapon",
 		Pos = Vector(0, 7, -27),
         Ang = Angle(90, 0, -90),
@@ -660,6 +664,7 @@ SWEP.Attachments = {
     },
     [5] = {
         PrintName = "Ammo Type",
+        DefaultIcon = Material("ui/att_ammo.png"),
         Bone = "weapon",
 		Pos = Vector(0.2, -5, 25.454),
         Ang = Angle(90, 0, -90),

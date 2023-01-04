@@ -43,11 +43,11 @@ SWEP.MirrorVMWM = true -- Use this to use the viewmodel as a worldmodel.
 SWEP.WorldModelMirror = "models/ut_weapons/ut_swissgewehr_01.mdl" -- Use this to set a lower-quality version of the viewmodel, with the same bone structure, as a worldmodel, to take advantage of MirrorVMWM without having to use the viewmodel.
 
 SWEP.WorldModelOffset = {
-	Pos = Vector(11,0.5,-2), -- non tpik (while on ground, on npc etc) 
-	Ang = Angle(1.5, 180, 180),
-	TPIKPos = Vector(6, 0.5, 6), -- arc9_tpik 1, you can make cool poses with it
-	TPIKAng = Angle(0, 0, 180),
-	Scale = 1
+    Pos = Vector(11,0.5,-2), -- non tpik (while on ground, on npc etc) 
+    Ang = Angle(1.5, 180, 180),
+    TPIKPos = Vector(6, 0.5, 6), -- arc9_tpik 1, you can make cool poses with it
+    TPIKAng = Angle(0, 0, 180),
+    Scale = 1
 }
 
 SWEP.NoTPIK = false
@@ -190,8 +190,8 @@ SWEP.BarrelLength = 32 -- Distance for nearwalling
 
 SWEP.RPM = 500
 
-SWEP.TriggerDelay = false -- Add a delay before the weapon fires.
-SWEP.TriggerDelayTime = 0.2 -- Time until weapon fires.
+SWEP.TriggerDelay = true -- Add a delay before the weapon fires.
+SWEP.TriggerDelayTime = 0.07 -- Time until weapon fires.
 SWEP.TriggerDelayRepeat = false -- Whether to do it for every shot on automatics.
 SWEP.TriggerDelayCancellable = true -- Whether it is possible to cancel trigger delay by releasing the trigger before it is done.
 SWEP.TriggerStartFireAnim = false -- Whether trigger begins the firing animation
@@ -632,6 +632,7 @@ end
 SWEP.Attachments = {
     [1] = {
         PrintName = "Optic",
+        DefaultIcon = Material("ui/att_optic.png"),
         Bone = "gun_bone",
 		Pos = Vector(0, -5, -7),
         Ang = Angle(-90, 0, -90),
@@ -640,6 +641,7 @@ SWEP.Attachments = {
     },
     [2] = {
         PrintName = "Muzzle",
+        DefaultIcon = Material("ui/att_barrel.png"),
         Bone = "gun_bone",
 		Pos = Vector(0, -3.5, 34),
         Ang = Angle(90, 0, -90),
@@ -648,6 +650,7 @@ SWEP.Attachments = {
     },
     [3] = {
         PrintName = "Tactical",
+        DefaultIcon = Material("ui/att_tac.png"),
         Bone = "gun_bone",
 		Pos = Vector(5, -3, 25),
         Ang = Angle(90, 0, -90),
@@ -656,6 +659,7 @@ SWEP.Attachments = {
     },
     [4] = {
         PrintName = "Grip",
+        DefaultIcon = Material("ui/att_grip.png"),
         Bone = "gun_bone",
 		Pos = Vector(0, 4, 20),
         Ang = Angle(-90, 0, -90),
@@ -664,6 +668,7 @@ SWEP.Attachments = {
     },
     [5] = {
         PrintName = "Ammo Type",
+        DefaultIcon = Material("ui/att_ammo.png"),
         Bone = "gun_bone",
 		Pos = Vector(0, 0, 0),
         Ang = Angle(90, 0, -90),

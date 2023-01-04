@@ -632,6 +632,7 @@ end
 SWEP.Attachments = {
     [1] = {
         PrintName = "Optic",
+        DefaultIcon = Material("ui/att_optic.png"),
         Bone = "weapon",
 		Pos = Vector(0.3, -13.3, 11),
         Ang = Angle(90, 0, -90),
@@ -640,6 +641,7 @@ SWEP.Attachments = {
     },
     [2] = {
         PrintName = "Muzzle",
+        DefaultIcon = Material("ui/att_barrel.png"),
         Bone = "weapon",
 		Pos = Vector(0.5, -6.9, -53),
         Ang = Angle(-90, 0, -90),
@@ -647,6 +649,7 @@ SWEP.Attachments = {
     },
     [3] = {
         PrintName = "Tactical",
+        DefaultIcon = Material("ui/att_tac.png"),
         Bone = "weapon",
 		Pos = Vector(-5, -8, -15),
         Ang = Angle(-90, 0, -90),
@@ -654,6 +657,7 @@ SWEP.Attachments = {
     },
     [4] = {
         PrintName = "Grip",
+        DefaultIcon = Material("ui/att_grip.png"),
         Bone = "weapon",
 		Pos = Vector(0, 1, -17),
         Ang = Angle(90, 0, -90),
@@ -661,6 +665,7 @@ SWEP.Attachments = {
     },
     [5] = {
         PrintName = "Ammo Type",
+        DefaultIcon = Material("ui/att_ammo.png"),
         Bone = "weapon",
 		Pos = Vector(0.2, -5, 25.454),
         Ang = Angle(90, 0, -90),
