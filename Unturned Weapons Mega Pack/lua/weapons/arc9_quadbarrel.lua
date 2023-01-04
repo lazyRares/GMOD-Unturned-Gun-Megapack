@@ -71,7 +71,7 @@ SWEP.ARC9WeaponCategory = {"weapon_ar2"} -- See sh_common.lua
 SWEP.DamageMax = 15 -- Damage done at point blank range
 SWEP.DamageMin = 10 -- Damage done at maximum range
 
-SWEP.ImpactForce = 8 -- Force that bullets apply on hit
+SWEP.ImpactForce = 32 -- Force that bullets apply on hit
 
 SWEP.DamageRand = 0 -- Damage varies randomly per shot by this fraction. 0.1 = +- 10% damage per shot.
 
