@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/ut_weapons/ut_military_magazine"
+	"$bumpmap" "models/ut_weapons/ut_ranger_magazine_bumpmap"
+}
