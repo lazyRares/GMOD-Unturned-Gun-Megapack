@@ -43,9 +43,9 @@ SWEP.MirrorVMWM = true -- Use this to use the viewmodel as a worldmodel.
 SWEP.WorldModelMirror = "models/ut_weapons/ut_thunderwulf.mdl" -- Use this to set a lower-quality version of the viewmodel, with the same bone structure, as a worldmodel, to take advantage of MirrorVMWM without having to use the viewmodel.
 
 SWEP.WorldModelOffset = {
-	Pos = Vector(11,0.5,-2), -- non tpik (while on ground, on npc etc) 
-	Ang = Angle(1.5, 180, 180),
-	TPIKPos = Vector(6, 0.5, 6), -- arc9_tpik 1, you can make cool poses with it
+	Pos = Vector(8, 0.5, 5), -- non tpik (while on ground, on npc etc) 
+	Ang = Angle(0, 0, 180),
+	TPIKPos = Vector(8, 0.5, 5), -- arc9_tpik 1, you can make cool poses with it
 	TPIKAng = Angle(0, 0, 180),
 	Scale = 1
 }

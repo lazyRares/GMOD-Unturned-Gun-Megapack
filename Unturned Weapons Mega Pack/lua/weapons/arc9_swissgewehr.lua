@@ -44,7 +44,7 @@ SWEP.WorldModelMirror = "models/ut_weapons/ut_swissgewehr_01.mdl" -- Use this to
 
 SWEP.WorldModelOffset = {
     Pos = Vector(11,0.5,-2), -- non tpik (while on ground, on npc etc) 
-    Ang = Angle(1.5, 180, 180),
+    Ang = Angle(0, 180, 180),
     TPIKPos = Vector(6, 0.5, 6), -- arc9_tpik 1, you can make cool poses with it
     TPIKAng = Angle(0, 0, 180),
     Scale = 1
@@ -191,7 +191,7 @@ SWEP.BarrelLength = 32 -- Distance for nearwalling
 SWEP.RPM = 500
 
 SWEP.TriggerDelay = true -- Add a delay before the weapon fires.
-SWEP.TriggerDelayTime = 0.07 -- Time until weapon fires.
+SWEP.TriggerDelayTime = 0. -- Time until weapon fires.
 SWEP.TriggerDelayRepeat = false -- Whether to do it for every shot on automatics.
 SWEP.TriggerDelayCancellable = true -- Whether it is possible to cancel trigger delay by releasing the trigger before it is done.
 SWEP.TriggerStartFireAnim = false -- Whether trigger begins the firing animation
