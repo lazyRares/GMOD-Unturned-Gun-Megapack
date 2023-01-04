@@ -413,16 +413,16 @@ SWEP.ShootPitchVariation = 0
 SWEP.FirstShootSound = "weapons/arccw/quad_barrel_shot.wav"  
 SWEP.ShootSound = "weapons/arccw/quad_barrel_shot.wav"     -- Fire      
 SWEP.ShootSoundIndoor = "weapons/arccw/quad_barrel_shot.wav"    -- Fire indoors
-SWEP.ShootSoundSilenced = "" -- Fire silenced
-SWEP.ShootSoundIndoorSilenced = nil  -- Fire indoors silenced
-SWEP.FirstShootSoundSilenced = nil  -- First fire silenced
+SWEP.ShootSoundSilenced = "weapons/arccw/silenced.wav"
+SWEP.ShootSoundIndoorSilenced = "weapons/arccw/silenced.wav"
+SWEP.FirstShootSoundSilenced = "weapons/arccw/silenced.wav"
 SWEP.FirstShootSoundIndoor = "weapons/arccw/quad_barrel_shot.wav"   -- First fire indoors
 SWEP.FirstDistantShootSound = "weapons/arccw/quad_barrel_shot.wav"                -- First distant fire
 SWEP.DistantShootSound = "weapons/arccw/quad_barrel_shot.wav"                     -- Distant fire
 SWEP.DistantShootSoundIndoor = "weapons/arccw/quad_barrel_shot.wav"              -- Distant fire indoors
-SWEP.DistantShootSoundSilenced = nil            -- Distant fire silenced
-SWEP.DistantShootSoundIndoorSilenced = nil      -- Distant fire indoors silenced
-SWEP.FirstDistantShootSoundSilenced = nil       -- First distant fire silenced
+SWEP.DistantShootSoundSilenced = "weapons/arccw/silenced.wav"            -- Distant fire silenced
+SWEP.DistantShootSoundIndoorSilenced = "weapons/arccw/silenced.wav"     -- Distant fire indoors silenced
+SWEP.FirstDistantShootSoundSilenced = "weapons/arccw/silenced.wav"       -- First distant fire silenced
 
 SWEP.ShootSoundLooping = nil
 SWEP.ShootSoundLoopingSilenced = nil
@@ -638,14 +638,6 @@ SWEP.Attachments = {
         Category = {"optic"},
     },
     [2] = {
-        PrintName = "Muzzle",
-        DefaultIcon = Material("ui/att_barrel.png"),
-        Bone = "",
-		Pos = Vector(0, -10, -35),
-        Ang = Angle(-90, 0, -90),
-        Category = {"muzzle"},
-    },
-    [3] = {
         PrintName = "Tactical",
         DefaultIcon = Material("ui/att_tac.png"),
         Bone = "weapon",
@@ -654,7 +646,7 @@ SWEP.Attachments = {
         Scale = 0.75,
         Category = {"tac"},
     },
-    [4] = {
+    [3] = {
         PrintName = "Grip",
         DefaultIcon = Material("ui/att_grip.png"),
         Bone = "weapon",
