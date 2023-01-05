@@ -68,15 +68,15 @@ SWEP.ARC9WeaponCategory = {"weapon_ar2"} -- See sh_common.lua
 
 -------------------------- DAMAGE PROFILE
 
-SWEP.DamageMax = 37 -- Damage done at point blank range
-SWEP.DamageMin = 30 -- Damage done at maximum range
+SWEP.DamageMax = 66 -- Damage done at point blank range
+SWEP.DamageMin = 56 -- Damage done at maximum range
 
 SWEP.ImpactForce = 8 -- Force that bullets apply on hit
 
 SWEP.DamageRand = 0 -- Damage varies randomly per shot by this fraction. 0.1 = +- 10% damage per shot.
 
 SWEP.RangeMin = 0 -- How far bullets retain their maximum damage for.
-SWEP.RangeMax = 5000 -- In Hammer units, how far bullets can travel before dealing DamageMin.
+SWEP.RangeMax = 10078 -- In Hammer units, how far bullets can travel before dealing DamageMin.
 SWEP.Distance = 33000 -- In Hammer units, how far bullets can travel, period.
 
 SWEP.Num = 1 -- Number of bullets to shoot
@@ -293,7 +293,7 @@ SWEP.RecoilKick = 1 -- Camera recoil
 SWEP.RecoilKickDamping = 70.151 -- Camera recoil damping
 -------------------------- SPREAD
 
-SWEP.Spread = 0.006
+SWEP.Spread = 0
 SWEP.UsePelletSpread = false -- Multiple bullets fired at once clump up, like for a shotgun. Spread affects which direction they get fired, not their spread relative to one another.
 SWEP.PelletSpread = 0.2
 

@@ -45,8 +45,8 @@ SWEP.WorldModelMirror = "models/ut_weapons/ut_swissgewehr_01.mdl" -- Use this to
 SWEP.WorldModelOffset = {
     Pos = Vector(11,0.5,-2), -- non tpik (while on ground, on npc etc) 
     Ang = Angle(0, 180, 180),
-    TPIKPos = Vector(6, 0.5, 6), -- arc9_tpik 1, you can make cool poses with it
-    TPIKAng = Angle(0, 0, 180),
+    Pos = Vector(11,0.5,-2), -- arc9_tpik 1, you can make cool poses with it
+    TPIKAng = Angle(0, 180, 180),
     Scale = 1
 }
 

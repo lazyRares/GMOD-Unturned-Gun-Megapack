@@ -7,7 +7,7 @@ ATT.SortOrder = 0
 ATT.Model = "models/ut_weapons/attachments/milbarrel.mdl"
 ATT.BoxModel = "models/items/arc9/att_plastic_box.mdl" --"models/items/arc9/att_plastic_box.mdl" 
 
-ATT.Spread = 0.0013
+ATT.SpreadMult = 0.7
 ATT.BarrelLengthMult = 1.25
 
 ATT.Category = "muzzle" -- can be "string" or {"list", "of", "strings"}
