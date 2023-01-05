@@ -24,7 +24,7 @@ SWEP.Trivia = {
     Author2 = "Rim"
 }
 
-SWEP.Description = [[The Swissgewehr is a German semi-automatic rifle added in 2017. It fires 5.56x45m NATO rounds at targets in short and medium ranges.]]
+SWEP.Description = [[The Swissgewehr is a German semi-automatic rifle added to Unturned in 2017 along with the Germany official map. It fires 5.56x45m NATO rounds, and is best fit for targets at short and medium ranges.]]
 
 SWEP.UseHands = false -- Same as weapon_base
 SWEP.EntitySelectIcon = false -- Set to true to try and use the Entity image as select icon
@@ -43,10 +43,10 @@ SWEP.MirrorVMWM = true -- Use this to use the viewmodel as a worldmodel.
 SWEP.WorldModelMirror = "models/ut_weapons/ut_swissgewehr_01.mdl" -- Use this to set a lower-quality version of the viewmodel, with the same bone structure, as a worldmodel, to take advantage of MirrorVMWM without having to use the viewmodel.
 
 SWEP.WorldModelOffset = {
-    Pos = Vector(11,0.5,-2), -- non tpik (while on ground, on npc etc) 
-    Ang = Angle(0, 180, 180),
-    Pos = Vector(11,0.5,-2), -- arc9_tpik 1, you can make cool poses with it
-    TPIKAng = Angle(0, 180, 180),
+    Pos = Vector(7,1.5,6), -- non tpik (while on ground, on npc etc) 
+    Ang = Angle(0, 0, 180),
+    Pos = Vector(7,1.5,6), -- arc9_tpik 1, you can make cool poses with it
+    TPIKAng = Angle(0, 0, 180),
     Scale = 1
 }
 

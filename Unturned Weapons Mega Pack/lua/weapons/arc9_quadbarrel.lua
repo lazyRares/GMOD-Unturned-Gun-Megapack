@@ -24,7 +24,7 @@ SWEP.Trivia = {
     Author2 = "Rim"
 }
 
-SWEP.Description = [[The Quad Barrel is a .12 guage shotgun containing four barrels. It is effective in short range fighting and was added to Russia in 2016.]]
+SWEP.Description = [[The Quad Barrel is a .12 gauge shotgun with four barrels. It is effective in short range fighting, can fit 8 shells, and was added to Unturned along with an update to Russia in 2016.]]
 
 SWEP.UseHands = false -- Same as weapon_base
 SWEP.EntitySelectIcon = false -- Set to true to try and use the Entity image as select icon

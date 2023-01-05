@@ -13,7 +13,7 @@ SWEP.TrueName = "Ruger 10/22 Carbine"
 
 SWEP.Class = "Semi-Automatic Rifle"
 SWEP.Trivia = {
-	Manufacturer1 = "PEI",
+	Manufacturer1 = "Sturm, Ruger & Co.",
 	Calibre2 = ".22 Long Rifle",
 	Mechanism3 = "Gas-Operated",
 	Country4 = "Canada",
@@ -24,7 +24,7 @@ SWEP.Trivia = {
     Author2 = "Rim"
 }
 
-SWEP.Description = [[The Sportshot is a lighweight and compact rifle that fires .22 Long Rifle rounds. It was added in Canada in 2015.]]
+SWEP.Description = [[The Sportshot is a lighweight, semi-automatic and compact rifle that fires .22 Long Rifle rounds. It was added to Unturned in 2015. The sportshot is most likely a form of BB Gun with its low base damage, but high firerate.]]
 
 SWEP.UseHands = false -- Same as weapon_base
 SWEP.EntitySelectIcon = false -- Set to true to try and use the Entity image as select icon

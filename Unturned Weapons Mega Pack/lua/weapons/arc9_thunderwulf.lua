@@ -11,7 +11,7 @@ SWEP.TrueName = "FN Ballista"
 -- You could also have it be a generic name, like "Assault Rifle" vs. "AK-47".
 -- TrueName should be something that improves the cross-compatibility of weapon naming.
 
-SWEP.Class = "Snip"
+SWEP.Class = "Sniper"
 SWEP.Trivia = {
 	Manufacturer1 = "FN Herstel",
 	Calibre2 = ".338 Lapua Mag",
@@ -24,7 +24,7 @@ SWEP.Trivia = {
     Author2 = "Rim"
 }
 
-SWEP.Description = [[The Thunderwulf is a semi-automatic bolt-action rifle added in Germany chambering .338 Lapua. It is made for and effective to shoot at targets from long distances.]]
+SWEP.Description = [[The Thunderwulf is a semi-automatic bolt-action rifle added to Unturned on April 5, 2019, along with the Belgium curated map. chambering .338 Lapua, It is made for and effective on targets at long distances.]]
 
 SWEP.UseHands = false -- Same as weapon_base
 SWEP.EntitySelectIcon = false -- Set to true to try and use the Entity image as select icon
